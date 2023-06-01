@@ -1,0 +1,12 @@
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{ 
+    "email": "mefd@gmail.com",
+    "password": "password"
+}
+### 
+GET http://localhost:3000/auth/2
+###
+
+DELETE http://localhost:3000/auth/3
